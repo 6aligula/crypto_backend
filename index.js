@@ -71,7 +71,7 @@ setTimeout(() => {
 }, 2000);
 setInterval(() => {
     getPrices();
-}, 4000)
+}, 6000)
 
 
 
