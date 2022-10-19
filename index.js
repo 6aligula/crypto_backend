@@ -52,7 +52,7 @@ const getPrices = async () => {
                     price_change_percentage_24h: item.price_change_percentage_24h,
                 }
             })
-            console.log(priceList);
+            //console.log(priceList);
             /*Send a message  to the client */
             socketHandler.emit('crypto', priceList);
             //console.log(priceList);
