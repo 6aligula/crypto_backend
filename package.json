@@ -1,0 +1,22 @@
+{
+  "name": "crypto_market",
+  "version": "1.0.0",
+  "description": "crypto market good with web sockets",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vinicio Naranjo",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "https": "^1.0.0",
+    "socket.io": "^4.5.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

@@ -1,0 +1,26 @@
+Create folder backend and RUN npm init
+
+/*Install library express for create web server*/
+npm i express
+
+/*Install library socket.io for create web socket for send data to the FrontEnd AND
+ library https for fetching data from another sources.
+ Those 2 librarys need for create our web socket server*/
+npm i https socket.io
+
+/*Install nodemon for charge de changes automatically*/
+npm i nodemon --save-dev
+
+/*Modify package .json for run project with: npm start*/
+"scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+}
+
+/*Install axios is better than library https*/
+npm i axios@0.24.0
+
+/*Install envoirement variables*/
+npm i dotenv
+
+Run server: npm start
